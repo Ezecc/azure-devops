@@ -28,6 +28,9 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run make command
         run: make hello
+      # Run installation
+      - name: Run install
+        run: make install
       # Run test
       - name: Run test
         run: make test
